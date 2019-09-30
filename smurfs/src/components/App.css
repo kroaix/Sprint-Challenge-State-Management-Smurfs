@@ -1,28 +1,38 @@
 .App {
+  background: url('https://www.tokkoro.com/picsup/2627427-smurfs-the-lost-village-4k-large-wallpaper-for-desktop.jpg');
+  background-size: cover;
+  height: 100vh;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
   color: white;
+  padding-top: 20px;
 }
 
-.App-title {
-  font-size: 1.5em;
+Form.ui.form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+input{
+  margin: 5px 0 !important;
 }
 
-.App-intro {
-  font-size: large;
+button.ui.button{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.cards{
+  display: flex!important;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+div.ui.card{
+  width: 271.75px;
+  margin: 5px;
+  opacity: 0.8;
 }
